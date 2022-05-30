@@ -1,0 +1,27 @@
+:root {
+    --acsentColor : #4169e1
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    min-height: 2000px;
+}
+
+.nav-link.active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+
+.text-color {
+    color: var(--acsentColor);
+}
+
+.background {
+    background-color: var(--acsentColor);
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.bold {
+    font-size: 30px;
+    font-weight: bold;
+}
